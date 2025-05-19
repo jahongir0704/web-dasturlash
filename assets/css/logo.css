@@ -1,0 +1,142 @@
+   
+    .container_s {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header__r {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.header__r .container_s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.lang-signin {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-signin button {
+  padding: 5px 10px;
+  background: teal;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+    .profile-card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      width: 74%;
+      margin: 50px auto;
+      
+    }
+    .profile-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .profile-header img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .form-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      flex: 1;
+    }
+    label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    button {
+      background: teal;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      float: right;
+    }
+footer {
+      background-color: #029688;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .footer-logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+     
+    .footer-nav {
+      margin-bottom: 20px;
+    }
+
+    .footer-nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    .footer-nav a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-social {
+      margin-bottom: 30px;
+    }
+
+    .footer-social a {
+      color: white;
+      font-size: 20px;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer-line {
+      height: 1px;
+      background-color: #c8e1df;
+      margin: 30px 0 20px;
+    }
+
+    .footer-copy {
+      font-size: 14px;
+      color: #cceae8;
+    }
+

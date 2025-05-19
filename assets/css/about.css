@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.lang-signin {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-signin button {
+  padding: 5px 10px;
+  background: teal;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.banner img {
+  width: 74%;
+  margin: 0 auto;
+  display: block;
+ 
+  height: auto;
+}
+
+.main-content {
+  padding: 40px 0;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+  /* margin-bottom: 60px; */
+}
+
+.tags button {
+  padding: 8px 19px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.tags .active {
+  background: teal;
+  color: white;
+}
+
+.content-text p {
+  width: 1170px;
+  
+  height: 195px;
+  font-size: 22px;
+  text-align: left;
+  
+}
+ .containers {
+      
+      width: 76%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      
+      background-color: #f9f5ef;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .left {
+      flex: 1;
+      background-color: #fce7cc;
+      padding: 40px;
+    }
+
+    .left h2 {
+      color: #d9841f;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .left p {
+      color: #c87f1d;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .dots {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 4px;
+      background-color: #ddd;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .dot.active {
+      background-color: #059669; /* green */
+    }
+
+    .right {
+      flex: 1;
+      padding: 40px;
+      background-color: #f9f5ef;
+    }
+
+    .right h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #0f172a;
+    }
+
+    .right p {
+      font-size: 14px;
+      color: #374151;
+      margin-bottom: 20px;
+    }
+
+    .right input[type="text"], 
+    .right input[type="tel"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .right .checkbox {
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #374151;
+    }
+
+    .right .checkbox input {
+      margin-right: 8px;
+    }
+
+    .right button {
+      width: 100%;
+      padding: 14px;
+      background-color: #059669;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        padding: 30px 20px;
+      }
+    }
+footer {
+      background-color: #029688;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .footer-logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+     
+    .footer-nav {
+      margin-bottom: 20px;
+    }
+
+    .footer-nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    .footer-nav a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-social {
+      margin-bottom: 30px;
+    }
+
+    .footer-social a {
+      color: white;
+      font-size: 20px;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer-line {
+      height: 1px;
+      background-color: #c8e1df;
+      margin: 30px 0 20px;
+    }
+
+    .footer-copy {
+      font-size: 14px;
+      color: #cceae8;
+    }
+
